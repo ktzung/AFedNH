@@ -1,0 +1,15 @@
+{"time":"2025-03-10T15:02:37.954089337+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/media/data3/home/dungkt/FedNH/wandb/run-20250310_150237-gosa5zqz/logs/debug-core.log"}
+{"time":"2025-03-10T15:02:38.068922982+07:00","level":"INFO","msg":"created new stream","id":"gosa5zqz"}
+{"time":"2025-03-10T15:02:38.068999669+07:00","level":"INFO","msg":"stream: started","id":"gosa5zqz"}
+{"time":"2025-03-10T15:02:38.069100857+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"gosa5zqz"}
+{"time":"2025-03-10T15:02:38.069121788+07:00","level":"INFO","msg":"handler: started","stream_id":"gosa5zqz"}
+{"time":"2025-03-10T15:02:38.069382344+07:00","level":"INFO","msg":"sender: started","stream_id":"gosa5zqz"}
+{"time":"2025-03-10T15:02:38.507055382+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T15:02:38.653396111+07:00","level":"INFO","msg":"stream: closing","id":"gosa5zqz"}
+{"time":"2025-03-10T15:02:38.653446193+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T15:02:38.654165396+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T15:02:40.501182582+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T15:02:40.806075977+07:00","level":"INFO","msg":"handler: closed","stream_id":"gosa5zqz"}
+{"time":"2025-03-10T15:02:40.806146955+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gosa5zqz"}
+{"time":"2025-03-10T15:02:40.806166875+07:00","level":"INFO","msg":"sender: closed","stream_id":"gosa5zqz"}
+{"time":"2025-03-10T15:02:40.80629348+07:00","level":"INFO","msg":"stream: closed","id":"gosa5zqz"}

@@ -1,0 +1,17 @@
+results are saved in:  ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_dataProto_noniid-label-distribution_beta_0.3_num_clients_100_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False
+tumorModel_cifar10_dataProtoNH
+Traceback (most recent call last):
+  File "/media/data3/home/dungkt/FedNH/main.py", line 253, in <module>
+    run(args)
+  File "/media/data3/home/dungkt/FedNH/main.py", line 149, in run
+    clients_dict = setup_clients(ClientCstr, trainset, None, criterion,
+  File "/media/data3/home/dungkt/FedNH/src/flbase/utils.py", line 88, in setup_clients
+    all_clients_dict[cid] = Client(
+  File "/media/data3/home/dungkt/FedNH/src/flbase/strategies/FedNH.py", line 26, in __init__
+    super().__init__(criterion, trainset, testset,
+  File "/media/data3/home/dungkt/FedNH/src/flbase/strategies/FedUH.py", line 25, in __init__
+    self._initialize_model()
+  File "/media/data3/home/dungkt/FedNH/src/flbase/strategies/FedUH.py", line 47, in _initialize_model
+    self.model = eval(f"{self.client_config['model']}NH")(self.client_config).to(self.device)
+  File "<string>", line 1, in <module>
+NameError: name 'tumorModel_cifar10_dataProtoNH' is not defined

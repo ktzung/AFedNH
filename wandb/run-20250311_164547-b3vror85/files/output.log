@@ -1,0 +1,9 @@
+results are saved in:  ./ICH_FedAvg/FedAvg_ich_Conv2Cifar_noniid-label-distribution_beta_0.3_num_clients_100_participate_ratio_0.1_global_seed_0_no_norm_False
+Traceback (most recent call last):
+  File "/media/data3/home/dungkt/FedNH/main.py", line 251, in <module>
+    run(args)
+  File "/media/data3/home/dungkt/FedNH/main.py", line 143, in run
+    trainset, testset, _ = get_datasets(server_config['dataset'])
+  File "/media/data3/home/dungkt/FedNH/src/utils.py", line 1060, in get_datasets
+    raise ValueError(f"Unrecognized dataset:{datasetname}")
+ValueError: Unrecognized dataset:ich

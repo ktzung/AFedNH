@@ -1,0 +1,22 @@
+results are saved in:  ./ICH_FedAvg/FedAvg_ICH_RestNet18_noniid-label-distribution_beta_0.3_num_clients_100_participate_ratio_0.1_global_seed_0_no_norm_False
+ICH dataset dang su dung
+<src.all_datasets.ICH object at 0x709ea79ef6d0>
+<src.all_datasets.ICH object at 0x709ea79ef700>
+ [Info - Dirichlet Sampling]: At leaset one client only has one class label. Perform Resampling...
+ [Info - Dirichlet Sampling]: At leaset one client only has one class label. Perform Resampling...
+ Warning: 2 clients have less than 2 classes
+From FedAvg
+RestNet18{'model': 'RestNet18', 'input_size': (1, 224, 224), 'num_classes': 5, 'num_epochs': 5, 'batch_size': 64, 'optimizer': 'SGD', 'learning_rate': 0.1, 'lr_scheduler': 'stepwise', 'lr_decay_per_round': 0.99, 'num_rounds': 200, 'use_tqdm': False, 'FedROD_hyper_clf': True, 'FedROD_phead_separate': False, 'FedNH_return_embedding': False, 'FedNH_head_init': 'orthogonal', 'FedNH_client_adv_prototype_agg': False, 'FedNH_fix_scaling': False, 'FedProto_lambda': 0.1, 'FedRep_head_epochs': 10, 'FedBABU_finetune_epoch': 5, 'Ditto_lambda': 0.75, 'CReFF_batch_real': 64, 'global_seed': 0, 'client_lr': 0.01, 'client_lr_scheduler': 'diminishing', 'sgd_momentum': 0.9, 'sgd_weight_decay': 1e-05, 'use_sam': False, 'no_norm': False}
+Traceback (most recent call last):
+  File "/media/data3/home/dungkt/FedNH/main.py", line 251, in <module>
+    run(args)
+  File "/media/data3/home/dungkt/FedNH/main.py", line 147, in run
+    clients_dict = setup_clients(ClientCstr, trainset, None, criterion,
+  File "/media/data3/home/dungkt/FedNH/src/flbase/utils.py", line 88, in setup_clients
+    all_clients_dict[cid] = Client(
+  File "/media/data3/home/dungkt/FedNH/src/flbase/strategies/FedAvg.py", line 25, in __init__
+    self._initialize_model()
+  File "/media/data3/home/dungkt/FedNH/src/flbase/strategies/FedAvg.py", line 31, in _initialize_model
+    self.model = eval(self.client_config['model'])(self.client_config).to(self.device)
+  File "<string>", line 1, in <module>
+NameError: name 'RestNet18' is not defined

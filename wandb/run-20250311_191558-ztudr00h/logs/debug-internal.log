@@ -1,0 +1,15 @@
+{"time":"2025-03-11T19:15:58.132164283+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/media/data3/home/dungkt/FedNH/wandb/run-20250311_191558-ztudr00h/logs/debug-core.log"}
+{"time":"2025-03-11T19:15:58.249926555+07:00","level":"INFO","msg":"created new stream","id":"ztudr00h"}
+{"time":"2025-03-11T19:15:58.249995025+07:00","level":"INFO","msg":"stream: started","id":"ztudr00h"}
+{"time":"2025-03-11T19:15:58.250103115+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ztudr00h"}
+{"time":"2025-03-11T19:15:58.250195266+07:00","level":"INFO","msg":"sender: started","stream_id":"ztudr00h"}
+{"time":"2025-03-11T19:15:58.250326742+07:00","level":"INFO","msg":"handler: started","stream_id":"ztudr00h"}
+{"time":"2025-03-11T19:15:58.71088321+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-11T19:16:29.156300169+07:00","level":"INFO","msg":"stream: closing","id":"ztudr00h"}
+{"time":"2025-03-11T19:16:29.156375923+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-11T19:16:29.157505834+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-11T19:16:30.798492251+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-11T19:16:31.112475303+07:00","level":"INFO","msg":"handler: closed","stream_id":"ztudr00h"}
+{"time":"2025-03-11T19:16:31.11252577+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ztudr00h"}
+{"time":"2025-03-11T19:16:31.11257026+07:00","level":"INFO","msg":"sender: closed","stream_id":"ztudr00h"}
+{"time":"2025-03-11T19:16:31.112715117+07:00","level":"INFO","msg":"stream: closed","id":"ztudr00h"}

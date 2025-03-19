@@ -1,0 +1,7 @@
+{"time":"2025-03-05T08:02:18.553380473+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/media/data3/home/dungkt/FedNH/wandb/run-20250305_080218-7mbktulo/logs/debug-core.log"}
+{"time":"2025-03-05T08:02:18.663242044+07:00","level":"INFO","msg":"created new stream","id":"7mbktulo"}
+{"time":"2025-03-05T08:02:18.66334883+07:00","level":"INFO","msg":"stream: started","id":"7mbktulo"}
+{"time":"2025-03-05T08:02:18.663434933+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"7mbktulo"}
+{"time":"2025-03-05T08:02:18.663448097+07:00","level":"INFO","msg":"sender: started","stream_id":"7mbktulo"}
+{"time":"2025-03-05T08:02:18.663512498+07:00","level":"INFO","msg":"handler: started","stream_id":"7mbktulo"}
+{"time":"2025-03-05T08:02:19.065372084+07:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,29 @@
+2025-03-11 16:45:47,570 INFO    MainThread:148930 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-03-11 16:45:47,570 INFO    MainThread:148930 [wandb_setup.py:_flush():67] Configure stats pid to 148930
+2025-03-11 16:45:47,570 INFO    MainThread:148930 [wandb_setup.py:_flush():67] Loading settings from /media/data3/home/dungkt/.config/wandb/settings
+2025-03-11 16:45:47,571 INFO    MainThread:148930 [wandb_setup.py:_flush():67] Loading settings from /media/data3/home/dungkt/FedNH/wandb/settings
+2025-03-11 16:45:47,571 INFO    MainThread:148930 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-11 16:45:47,571 INFO    MainThread:148930 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /media/data3/home/dungkt/FedNH/wandb/run-20250311_164547-b3vror85/logs/debug.log
+2025-03-11 16:45:47,571 INFO    MainThread:148930 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /media/data3/home/dungkt/FedNH/wandb/run-20250311_164547-b3vror85/logs/debug-internal.log
+2025-03-11 16:45:47,571 INFO    MainThread:148930 [wandb_init.py:init():761] calling init triggers
+2025-03-11 16:45:47,571 INFO    MainThread:148930 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-11 16:45:47,571 INFO    MainThread:148930 [wandb_init.py:init():784] starting backend
+2025-03-11 16:45:47,572 INFO    MainThread:148930 [wandb_init.py:init():788] sending inform_init request
+2025-03-11 16:45:47,579 INFO    MainThread:148930 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-03-11 16:45:47,579 INFO    MainThread:148930 [wandb_init.py:init():798] backend started and connected
+2025-03-11 16:45:47,581 INFO    MainThread:148930 [wandb_init.py:init():891] updated telemetry
+2025-03-11 16:45:47,590 INFO    MainThread:148930 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-11 16:45:48,149 INFO    MainThread:148930 [wandb_init.py:init():990] starting run threads in backend
+2025-03-11 16:45:48,273 INFO    MainThread:148930 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-11 16:45:48,274 INFO    MainThread:148930 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-11 16:45:48,274 INFO    MainThread:148930 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-11 16:45:48,275 INFO    MainThread:148930 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-11 16:45:48,277 INFO    MainThread:148930 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-11 16:45:48,362 INFO    MainThread:148930 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /media/data3/home/dungkt/FedNH/wandb/run-20250311_164548-row8d5ek/logs/debug.log
+2025-03-11 16:45:48,362 INFO    MainThread:148930 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /media/data3/home/dungkt/FedNH/wandb/run-20250311_164548-row8d5ek/logs/debug-internal.log
+2025-03-11 16:45:48,362 INFO    MainThread:148930 [wandb_init.py:init():761] calling init triggers
+2025-03-11 16:45:48,362 INFO    MainThread:148930 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'server_config': {'strategy': 'FedAvg', 'num_rounds': 200, 'num_clients': 100, 'participate_ratio': 0.1, 'drop_ratio': 0.0, 'test_every': 1, 'split_testset': False, 'use_tqdm': False, 'dataset': 'ich', 'partition': 'noniid-label-distribution', 'beta': '0.3', 'num_classes_per_client': None, 'num_shards_per_client': None, 'num_classes': 5, 'learning_rate': 1.0, 'lr_decay_per_round': 1.0, 'exclude': (), 'FedNH_smoothing': 0.9, 'FedNH_server_adv_prototype_agg': False, 'CReFF_num_of_fl_feature': 100, 'CReFF_match_epoch': 100, 'CReFF_lr_net': 0.01, 'CReFF_lr_feature': 0.1, 'CReFF_crt_epoch': 300, 'CReFF_dis_metric': 'ours'}, 'client_config': {'model': 'Conv2Cifar', 'input_size': (3, 32, 32), 'num_classes': 5, 'num_epochs': 5, 'batch_size': 64, 'optimizer': 'SGD', 'learning_rate': 0.1, 'lr_scheduler': 'stepwise', 'lr_decay_per_round': 0.99, 'num_rounds': 200, 'use_tqdm': False, 'FedROD_hyper_clf': True, 'FedROD_phead_separate': False, 'FedNH_return_embedding': False, 'FedNH_head_init': 'orthogonal', 'FedNH_client_adv_prototype_agg': False, 'FedNH_fix_scaling': False, 'FedProto_lambda': 0.1, 'FedRep_head_epochs': 10, 'FedBABU_finetune_epoch': 5, 'Ditto_lambda': 0.75, 'CReFF_batch_real': 64, 'global_seed': 0, 'client_lr': 0.01, 'client_lr_scheduler': 'diminishing', 'sgd_momentum': 0.9, 'sgd_weight_decay': 1e-05, 'use_sam': False, 'no_norm': False}, '_wandb': {}}
+2025-03-11 16:45:48,363 INFO    MainThread:148930 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-11 16:45:48,591 INFO    MsgRouterThr:148930 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.

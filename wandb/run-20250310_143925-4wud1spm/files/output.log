@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/media/data3/home/dungkt/FedNH/main.py", line 251, in <module>
+    run(args)
+  File "/media/data3/home/dungkt/FedNH/main.py", line 43, in run
+    with open(args.yamlfile, "r") as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '.config/config_ich_conv2.yaml'

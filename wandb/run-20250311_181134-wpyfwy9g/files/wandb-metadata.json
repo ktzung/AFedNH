@@ -1,0 +1,76 @@
+{
+  "os": "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.12",
+  "startedAt": "2025-03-11T11:11:34.186938Z",
+  "args": [
+    "--purpose",
+    "ICH",
+    "--device",
+    "cuda:0",
+    "--global_seed",
+    "0",
+    "--use_wandb",
+    "True",
+    "--yamlfile",
+    "config/config_ich_conv2.yaml",
+    "--strategy",
+    "FedAvg",
+    "--num_clients",
+    "100",
+    "--participate_ratio",
+    "0.1",
+    "--partition",
+    "noniid-label-distribution",
+    "--beta",
+    "0.3",
+    "--num_rounds",
+    "200",
+    "--client_lr",
+    "0.01",
+    "--client_lr_scheduler",
+    "diminishing",
+    "--sgd_momentum",
+    "0.9",
+    "--sgd_weight_decay",
+    "1e-05",
+    "--num_epochs",
+    "5"
+  ],
+  "program": "/media/data3/home/dungkt/FedNH/main.py",
+  "codePath": "main.py",
+  "git": {
+    "remote": "https://github.com/phuongth1910/FedNH",
+    "commit": "ff41bb1c3b57444ad1ee2c166eb20e0643703095"
+  },
+  "email": "dung.kt230057d@sis.hust.edu.vn",
+  "root": "/media/data3/home/dungkt/FedNH",
+  "host": "server1",
+  "executable": "/media/data3/home/dungkt/FedNH/myenv/bin/python",
+  "codePathLocal": "main.py",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce GTX 1080 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "234622398464",
+      "used": "88221360128"
+    }
+  },
+  "memory": {
+    "total": "16686264320"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce GTX 1080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 3584,
+      "architecture": "Pascal"
+    }
+  ],
+  "cudaVersion": "12.2"
+}

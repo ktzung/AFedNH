@@ -1,0 +1,13 @@
+{"time":"2025-03-11T19:21:22.009513143+07:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpvt2cotia/port-151652.txt","pid":151652,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-03-11T19:21:22.019361305+07:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":151652}
+{"time":"2025-03-11T19:21:22.019328497+07:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":41773,"Zone":""}}
+{"time":"2025-03-11T19:21:22.19237536+07:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:58664"}
+{"time":"2025-03-11T19:21:22.732831004+07:00","level":"INFO","msg":"handleInformInit: received","streamId":"co25t4sy","id":"127.0.0.1:58664"}
+{"time":"2025-03-11T19:21:22.84276177+07:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"co25t4sy","id":"127.0.0.1:58664"}
+{"time":"2025-03-11T19:21:23.680842131+07:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:58664"}
+{"time":"2025-03-11T19:21:23.680900061+07:00","level":"INFO","msg":"connection: closing","id":"127.0.0.1:58664"}
+{"time":"2025-03-11T19:21:23.680938727+07:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-03-11T19:21:23.680987427+07:00","level":"INFO","msg":"connection: closed successfully","id":"127.0.0.1:58664"}
+{"time":"2025-03-11T19:21:25.118551042+07:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:58664"}
+{"time":"2025-03-11T19:21:25.118638195+07:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:58664"}
+{"time":"2025-03-11T19:21:25.118688485+07:00","level":"INFO","msg":"server is closed"}

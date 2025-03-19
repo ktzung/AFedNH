@@ -1,0 +1,561 @@
+results are saved in:  ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+tumorModel_cifar10_dataNH
+============================================================Run Summary============================================================
+Dataset:
+ dataset:Cifar10 | num_classes:10 | partition:noniid-label-distribution | beta:0.3
+Server Info:
+ strategy:FedNH | num_clients:50 | num_rounds: 200 | participate_ratio:0.1 | drop_ratio:0.0
+Clients Info:
+ model:tumorModel_cifar10_data | num_epochs:5 | batch_size:64 | optimizer:SGD | inint lr:0.01 | lr scheduler:diminishing | momentum: 0.9 | weight decay: 1e-05
+ tumorModel_cifar10_data: size:3.732 MB | num params: 0.933 M
+FedUHServer: the following layers will not be updated: ['prototype']
+Strategy Related Hyper-parameters:
+ server side
+  FedNH_smoothing _ 0.9
+  FedNH_server_adv_prototype_agg _ False
+ client side
+  FedNH_return_embedding _ False
+  FedNH_head_init _ orthogonal
+  FedNH_client_adv_prototype_agg _ False
+  FedNH_fix_scaling _ False
+Round:1 - Active clients:[27 35 40 38  2]:
+ Training time:33.580 seconds
+ server global model correct 1938
+ Testing time:25.254 seconds
+ avg_test_acc: {'uniform': 0.19380000233650208, 'validclass': 0.19380000233650208, 'labeldist': 0.19380000233650208}
+ pfl_avg_test_acc: {'uniform': 0.1936400055885315, 'validclass': 0.25059841573238373, 'labeldist': 0.656229555606842}
+Round:2 - Active clients:[36 47 28  9 13]:
+ Training time:24.484 seconds
+ server global model correct 2187
+ Testing time:25.329 seconds
+ avg_test_acc: {'uniform': 0.21870000660419464, 'validclass': 0.21870000660419464, 'labeldist': 0.21870000660419464}
+ pfl_avg_test_acc: {'uniform': 0.19039999842643737, 'validclass': 0.23233189880847932, 'labeldist': 0.7394668698310852}
+ Best test accuracy:0.219. Best server model is updatded and saved at ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False_best_global_model.pkl!
+Round:3 - Active clients:[12 39  9 47 31]:
+ Training time:21.233 seconds
+ server global model correct 2740
+ Testing time:25.587 seconds
+ avg_test_acc: {'uniform': 0.27399998903274536, 'validclass': 0.27399998903274536, 'labeldist': 0.27399998903274536}
+ pfl_avg_test_acc: {'uniform': 0.24731999933719634, 'validclass': 0.2766066640615463, 'labeldist': 0.6689605474472046}
+ Best test accuracy:0.274. Best server model is updatded and saved at ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False_best_global_model.pkl!
+Round:4 - Active clients:[ 6 48 11  4 12]:
+ Training time:23.663 seconds
+ server global model correct 3393
+ Testing time:25.603 seconds
+ avg_test_acc: {'uniform': 0.3393000066280365, 'validclass': 0.3393000066280365, 'labeldist': 0.3393000066280365}
+ pfl_avg_test_acc: {'uniform': 0.24754000306129456, 'validclass': 0.3203642874956131, 'labeldist': 0.6586040735244751}
+ Best test accuracy:0.339. Best server model is updatded and saved at ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False_best_global_model.pkl!
+Round:5 - Active clients:[42 29  6 19 28]:
+ Training time:22.889 seconds
+ server global model correct 3911
+ Testing time:25.360 seconds
+ avg_test_acc: {'uniform': 0.3910999894142151, 'validclass': 0.3910999894142151, 'labeldist': 0.39110004901885986}
+ pfl_avg_test_acc: {'uniform': 0.24198000133037567, 'validclass': 0.3450492858886719, 'labeldist': 0.7242948293685914}
+ Best test accuracy:0.391. Best server model is updatded and saved at ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False_best_global_model.pkl!
+Round:6 - Active clients:[49 40 38 23  7]:
+ Training time:19.279 seconds
+ server global model correct 2757
+ Testing time:25.397 seconds
+ avg_test_acc: {'uniform': 0.27570000290870667, 'validclass': 0.27570000290870667, 'labeldist': 0.27570000290870667}
+ pfl_avg_test_acc: {'uniform': 0.21225999891757966, 'validclass': 0.2918482571840286, 'labeldist': 0.7136626601219177}
+Round:7 - Active clients:[13 15 22 42 30]:
+ Training time:20.073 seconds
+ server global model correct 3169
+ Testing time:25.641 seconds
+ avg_test_acc: {'uniform': 0.31690001487731934, 'validclass': 0.31690001487731934, 'labeldist': 0.31689998507499695}
+ pfl_avg_test_acc: {'uniform': 0.23895999491214753, 'validclass': 0.32601499259471894, 'labeldist': 0.7986286997795105}
+Round:8 - Active clients:[44 49 36 23 48]:
+ Training time:22.297 seconds
+ server global model correct 2747
+ Testing time:25.375 seconds
+ avg_test_acc: {'uniform': 0.27469998598098755, 'validclass': 0.27469998598098755, 'labeldist': 0.27469998598098755}
+ pfl_avg_test_acc: {'uniform': 0.21414000391960145, 'validclass': 0.29714754819869993, 'labeldist': 0.7373617768287659}
+Round:9 - Active clients:[21 37  2 14 44]:
+ Training time:21.908 seconds
+ server global model correct 2623
+ Testing time:25.640 seconds
+ avg_test_acc: {'uniform': 0.2623000144958496, 'validclass': 0.2623000144958496, 'labeldist': 0.2622999846935272}
+ pfl_avg_test_acc: {'uniform': 0.2180400013923645, 'validclass': 0.357021102309227, 'labeldist': 0.7475099086761474}
+Round:10 - Active clients:[37 23 44 42 47]:
+ Training time:24.832 seconds
+ server global model correct 3957
+ Testing time:25.689 seconds
+ avg_test_acc: {'uniform': 0.39570000767707825, 'validclass': 0.39570000767707825, 'labeldist': 0.39570000767707825}
+ pfl_avg_test_acc: {'uniform': 0.2534199982881546, 'validclass': 0.4195122241973877, 'labeldist': 0.7492323756217957}
+ Best test accuracy:0.396. Best server model is updatded and saved at ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False_best_global_model.pkl!
+Round:11 - Active clients:[37 45 36 22  2]:
+ Training time:20.970 seconds
+ server global model correct 4215
+ Testing time:25.683 seconds
+ avg_test_acc: {'uniform': 0.42149999737739563, 'validclass': 0.42149999737739563, 'labeldist': 0.42149999737739563}
+ pfl_avg_test_acc: {'uniform': 0.23090000152587892, 'validclass': 0.35403889417648315, 'labeldist': 0.7610509395599365}
+ Best test accuracy:0.421. Best server model is updatded and saved at ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False_best_global_model.pkl!
+Round:12 - Active clients:[28 46  7 41 36]:
+ Training time:21.453 seconds
+ server global model correct 4815
+ Testing time:25.694 seconds
+ avg_test_acc: {'uniform': 0.4814999997615814, 'validclass': 0.4814999997615814, 'labeldist': 0.4814999997615814}
+ pfl_avg_test_acc: {'uniform': 0.2443000018596649, 'validclass': 0.34616547226905825, 'labeldist': 0.7389138817787171}
+ Best test accuracy:0.481. Best server model is updatded and saved at ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False_best_global_model.pkl!
+Round:13 - Active clients:[43  4 20 46  0]:
+ Training time:22.757 seconds
+ server global model correct 4034
+ Testing time:25.688 seconds
+ avg_test_acc: {'uniform': 0.4034000039100647, 'validclass': 0.4034000039100647, 'labeldist': 0.4034000337123871}
+ pfl_avg_test_acc: {'uniform': 0.30822000503540037, 'validclass': 0.48378332853317263, 'labeldist': 0.7951015591621399}
+Round:14 - Active clients:[47 21 14 30 37]:
+ Training time:19.980 seconds
+ server global model correct 3235
+ Testing time:25.340 seconds
+ avg_test_acc: {'uniform': 0.32350000739097595, 'validclass': 0.32350000739097595, 'labeldist': 0.32350000739097595}
+ pfl_avg_test_acc: {'uniform': 0.2802200049161911, 'validclass': 0.3922661244869232, 'labeldist': 0.7798646211624145}
+Round:15 - Active clients:[35 37 41 26 38]:
+ Training time:29.344 seconds
+ server global model correct 3458
+ Testing time:26.474 seconds
+ avg_test_acc: {'uniform': 0.3458000123500824, 'validclass': 0.3458000123500824, 'labeldist': 0.3458000123500824}
+ pfl_avg_test_acc: {'uniform': 0.2532399982213974, 'validclass': 0.44831952452659607, 'labeldist': 0.7880903720855713}
+Round:16 - Active clients:[ 3 34 25 36 20]:
+ Training time:24.436 seconds
+ server global model correct 3959
+ Testing time:25.677 seconds
+ avg_test_acc: {'uniform': 0.39590001106262207, 'validclass': 0.39590001106262207, 'labeldist': 0.3958999812602997}
+ pfl_avg_test_acc: {'uniform': 0.25843999683856966, 'validclass': 0.46295318603515623, 'labeldist': 0.825835132598877}
+Round:17 - Active clients:[44 16 21 42 19]:
+ Training time:19.703 seconds
+ server global model correct 3958
+ Testing time:25.685 seconds
+ avg_test_acc: {'uniform': 0.39579999446868896, 'validclass': 0.39579999446868896, 'labeldist': 0.39580002427101135}
+ pfl_avg_test_acc: {'uniform': 0.278999999165535, 'validclass': 0.389562776684761, 'labeldist': 0.759446120262146}
+Round:18 - Active clients:[43 16 26 30 20]:
+ Training time:18.758 seconds
+ server global model correct 4504
+ Testing time:25.349 seconds
+ avg_test_acc: {'uniform': 0.4503999948501587, 'validclass': 0.4503999948501587, 'labeldist': 0.4504000246524811}
+ pfl_avg_test_acc: {'uniform': 0.32008000612258913, 'validclass': 0.39464778304100034, 'labeldist': 0.8188410997390747}
+Round:19 - Active clients:[24 23 35 30 26]:
+ Training time:22.327 seconds
+ server global model correct 4302
+ Testing time:25.355 seconds
+ avg_test_acc: {'uniform': 0.4302000105381012, 'validclass': 0.4302000105381012, 'labeldist': 0.4302000105381012}
+ pfl_avg_test_acc: {'uniform': 0.3042599976062775, 'validclass': 0.3947912633419037, 'labeldist': 0.8394400477409363}
+Round:20 - Active clients:[12 14  4  8 45]:
+ Training time:15.337 seconds
+ server global model correct 4610
+ Testing time:25.618 seconds
+ avg_test_acc: {'uniform': 0.460999995470047, 'validclass': 0.460999995470047, 'labeldist': 0.460999995470047}
+ pfl_avg_test_acc: {'uniform': 0.3047400027513504, 'validclass': 0.4028833329677582, 'labeldist': 0.8115837693214416}
+Round:21 - Active clients:[ 7 44 43 25 14]:
+ Training time:16.544 seconds
+ server global model correct 4609
+ Testing time:25.736 seconds
+ avg_test_acc: {'uniform': 0.4609000086784363, 'validclass': 0.4609000086784363, 'labeldist': 0.46090003848075867}
+ pfl_avg_test_acc: {'uniform': 0.2517599999904633, 'validclass': 0.4610399901866913, 'labeldist': 0.7333804488182067}
+Round:22 - Active clients:[32 12 25 47 33]:
+ Training time:25.700 seconds
+ server global model correct 4728
+ Testing time:25.368 seconds
+ avg_test_acc: {'uniform': 0.47279998660087585, 'validclass': 0.47279998660087585, 'labeldist': 0.47279998660087585}
+ pfl_avg_test_acc: {'uniform': 0.3724000036716461, 'validclass': 0.5663861751556396, 'labeldist': 0.7707852125167847}
+Round:23 - Active clients:[14 18 17 32 13]:
+ Training time:17.206 seconds
+ server global model correct 3981
+ Testing time:25.641 seconds
+ avg_test_acc: {'uniform': 0.39809998869895935, 'validclass': 0.39809998869895935, 'labeldist': 0.39810001850128174}
+ pfl_avg_test_acc: {'uniform': 0.32152000069618225, 'validclass': 0.41353928446769717, 'labeldist': 0.7098815083503723}
+Round:24 - Active clients:[ 8  5 32 26 19]:
+ Training time:20.347 seconds
+ server global model correct 4160
+ Testing time:25.468 seconds
+ avg_test_acc: {'uniform': 0.41600000858306885, 'validclass': 0.41600000858306885, 'labeldist': 0.41600003838539124}
+ pfl_avg_test_acc: {'uniform': 0.3293799996376038, 'validclass': 0.43781666159629823, 'labeldist': 0.7957715630531311}
+Round:25 - Active clients:[36 46  7 41 17]:
+ Training time:16.274 seconds
+ server global model correct 5167
+ Testing time:25.441 seconds
+ avg_test_acc: {'uniform': 0.516700029373169, 'validclass': 0.516700029373169, 'labeldist': 0.516700029373169}
+ pfl_avg_test_acc: {'uniform': 0.3106999933719635, 'validclass': 0.4157595276832581, 'labeldist': 0.7736372828483582}
+ Best test accuracy:0.517. Best server model is updatded and saved at ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False_best_global_model.pkl!
+Round:26 - Active clients:[ 2 43 10 14 44]:
+ Training time:24.676 seconds
+ server global model correct 4724
+ Testing time:25.414 seconds
+ avg_test_acc: {'uniform': 0.4724000096321106, 'validclass': 0.4724000096321106, 'labeldist': 0.4724000096321106}
+ pfl_avg_test_acc: {'uniform': 0.3185599982738495, 'validclass': 0.49527000784873965, 'labeldist': 0.7838649392127991}
+Round:27 - Active clients:[14 20 46 43  6]:
+ Training time:23.641 seconds
+ server global model correct 5463
+ Testing time:25.498 seconds
+ avg_test_acc: {'uniform': 0.5462999939918518, 'validclass': 0.5462999939918518, 'labeldist': 0.5462999939918518}
+ pfl_avg_test_acc: {'uniform': 0.3714399993419647, 'validclass': 0.4526777803897858, 'labeldist': 0.8277610540390015}
+ Best test accuracy:0.546. Best server model is updatded and saved at ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False_best_global_model.pkl!
+Round:28 - Active clients:[11 16  9 31 27]:
+ Training time:23.613 seconds
+ server global model correct 5883
+ Testing time:25.430 seconds
+ avg_test_acc: {'uniform': 0.5882999897003174, 'validclass': 0.5882999897003174, 'labeldist': 0.5882999897003174}
+ pfl_avg_test_acc: {'uniform': 0.3970600008964539, 'validclass': 0.4558634877204895, 'labeldist': 0.8057955980300904}
+ Best test accuracy:0.588. Best server model is updatded and saved at ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False_best_global_model.pkl!
+Round:29 - Active clients:[35 26 45 48 22]:
+ Training time:23.382 seconds
+ server global model correct 4875
+ Testing time:25.503 seconds
+ avg_test_acc: {'uniform': 0.48750001192092896, 'validclass': 0.48750001192092896, 'labeldist': 0.48750001192092896}
+ pfl_avg_test_acc: {'uniform': 0.33863999843597414, 'validclass': 0.4458646774291992, 'labeldist': 0.7826694130897522}
+Round:30 - Active clients:[41 20 32 43 10]:
+ Training time:26.162 seconds
+ server global model correct 5368
+ Testing time:25.477 seconds
+ avg_test_acc: {'uniform': 0.5368000268936157, 'validclass': 0.5368000268936157, 'labeldist': 0.536799967288971}
+ pfl_avg_test_acc: {'uniform': 0.3516600012779236, 'validclass': 0.5093357145786286, 'labeldist': 0.8070726037025452}
+Round:31 - Active clients:[32  4  5 31  2]:
+ Training time:20.886 seconds
+ server global model correct 5857
+ Testing time:25.459 seconds
+ avg_test_acc: {'uniform': 0.5856999754905701, 'validclass': 0.5856999754905701, 'labeldist': 0.5857000350952148}
+ pfl_avg_test_acc: {'uniform': 0.36543999910354613, 'validclass': 0.4293594479560852, 'labeldist': 0.8048296570777893}
+Round:32 - Active clients:[49 16 41 35 44]:
+ Training time:27.193 seconds
+ server global model correct 4977
+ Testing time:25.464 seconds
+ avg_test_acc: {'uniform': 0.4977000057697296, 'validclass': 0.4977000057697296, 'labeldist': 0.4977000057697296}
+ pfl_avg_test_acc: {'uniform': 0.34158000349998474, 'validclass': 0.4669885694980621, 'labeldist': 0.8228215098381042}
+Round:33 - Active clients:[ 5 27 37 15 40]:
+ Training time:25.105 seconds
+ server global model correct 5092
+ Testing time:25.521 seconds
+ avg_test_acc: {'uniform': 0.5091999769210815, 'validclass': 0.5091999769210815, 'labeldist': 0.5092000365257263}
+ pfl_avg_test_acc: {'uniform': 0.37342000007629395, 'validclass': 0.4825244426727295, 'labeldist': 0.8429987311363221}
+Round:34 - Active clients:[16 39  1  3  0]:
+ Training time:19.544 seconds
+ server global model correct 6017
+ Testing time:25.465 seconds
+ avg_test_acc: {'uniform': 0.6017000079154968, 'validclass': 0.6017000079154968, 'labeldist': 0.6017000079154968}
+ pfl_avg_test_acc: {'uniform': 0.4180600047111511, 'validclass': 0.5967634975910187, 'labeldist': 0.8219764351844787}
+ Best test accuracy:0.602. Best server model is updatded and saved at ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False_best_global_model.pkl!
+Round:35 - Active clients:[39 26 22 31 29]:
+ Training time:16.892 seconds
+ server global model correct 5589
+ Testing time:25.450 seconds
+ avg_test_acc: {'uniform': 0.558899998664856, 'validclass': 0.558899998664856, 'labeldist': 0.5588999390602112}
+ pfl_avg_test_acc: {'uniform': 0.3888800024986267, 'validclass': 0.47180832624435426, 'labeldist': 0.8164775848388672}
+Round:36 - Active clients:[29 11 18 32 12]:
+ Training time:21.752 seconds
+ server global model correct 5996
+ Testing time:25.434 seconds
+ avg_test_acc: {'uniform': 0.5996000170707703, 'validclass': 0.5996000170707703, 'labeldist': 0.5996000170707703}
+ pfl_avg_test_acc: {'uniform': 0.42565999627113343, 'validclass': 0.559289276599884, 'labeldist': 0.7665355920791626}
+Round:37 - Active clients:[49 37 13  0 41]:
+ Training time:25.905 seconds
+ server global model correct 4946
+ Testing time:25.754 seconds
+ avg_test_acc: {'uniform': 0.49459999799728394, 'validclass': 0.49459999799728394, 'labeldist': 0.4946000576019287}
+ pfl_avg_test_acc: {'uniform': 0.31413999795913694, 'validclass': 0.5994999945163727, 'labeldist': 0.8621463298797607}
+Round:38 - Active clients:[29 17  0 21 40]:
+ Training time:16.327 seconds
+ server global model correct 5989
+ Testing time:25.448 seconds
+ avg_test_acc: {'uniform': 0.5989000201225281, 'validclass': 0.5989000201225281, 'labeldist': 0.5989000201225281}
+ pfl_avg_test_acc: {'uniform': 0.37624000310897826, 'validclass': 0.5459233343601226, 'labeldist': 0.8410616040229797}
+Round:39 - Active clients:[ 2 23 47 16 29]:
+ Training time:22.954 seconds
+ server global model correct 6231
+ Testing time:25.501 seconds
+ avg_test_acc: {'uniform': 0.6230999827384949, 'validclass': 0.6230999827384949, 'labeldist': 0.6230999827384949}
+ pfl_avg_test_acc: {'uniform': 0.4316399931907654, 'validclass': 0.4770061016082764, 'labeldist': 0.8130079865455627}
+ Best test accuracy:0.623. Best server model is updatded and saved at ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False_best_global_model.pkl!
+Round:40 - Active clients:[33 29 49 38 45]:
+ Training time:18.846 seconds
+ server global model correct 5144
+ Testing time:25.755 seconds
+ avg_test_acc: {'uniform': 0.5144000053405762, 'validclass': 0.5144000053405762, 'labeldist': 0.5144000053405762}
+ pfl_avg_test_acc: {'uniform': 0.34472000002861025, 'validclass': 0.4836750030517578, 'labeldist': 0.790579092502594}
+Round:41 - Active clients:[49 18  9 14 32]:
+ Training time:20.377 seconds
+ server global model correct 5753
+ Testing time:25.448 seconds
+ avg_test_acc: {'uniform': 0.5752999782562256, 'validclass': 0.5752999782562256, 'labeldist': 0.5753000378608704}
+ pfl_avg_test_acc: {'uniform': 0.372680002450943, 'validclass': 0.47538134455680847, 'labeldist': 0.8209633827209473}
+Round:42 - Active clients:[13 39 30 45 17]:
+ Training time:12.015 seconds
+ server global model correct 5931
+ Testing time:25.782 seconds
+ avg_test_acc: {'uniform': 0.5931000113487244, 'validclass': 0.5931000113487244, 'labeldist': 0.5931000113487244}
+ pfl_avg_test_acc: {'uniform': 0.39129999876022337, 'validclass': 0.469691663980484, 'labeldist': 0.8286778211593628}
+Round:43 - Active clients:[19 36 28 14 20]:
+ Training time:18.815 seconds
+ server global model correct 6099
+ Testing time:25.454 seconds
+ avg_test_acc: {'uniform': 0.6098999977111816, 'validclass': 0.6098999977111816, 'labeldist': 0.6098999977111816}
+ pfl_avg_test_acc: {'uniform': 0.40378000140190123, 'validclass': 0.5090377032756805, 'labeldist': 0.8482357263565063}
+Round:44 - Active clients:[37  6 47 36  5]:
+ Training time:24.467 seconds
+ server global model correct 5891
+ Testing time:25.771 seconds
+ avg_test_acc: {'uniform': 0.5891000032424927, 'validclass': 0.5891000032424927, 'labeldist': 0.5891000032424927}
+ pfl_avg_test_acc: {'uniform': 0.41540000438690183, 'validclass': 0.5561707139015197, 'labeldist': 0.831292736530304}
+Round:45 - Active clients:[47  7  2  9  5]:
+ Training time:19.772 seconds
+ server global model correct 6559
+ Testing time:25.441 seconds
+ avg_test_acc: {'uniform': 0.6559000015258789, 'validclass': 0.6559000015258789, 'labeldist': 0.6559000015258789}
+ pfl_avg_test_acc: {'uniform': 0.41977999806404115, 'validclass': 0.4785472214221954, 'labeldist': 0.8251566290855408}
+ Best test accuracy:0.656. Best server model is updatded and saved at ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False_best_global_model.pkl!
+Round:46 - Active clients:[ 9 14  3 35 10]:
+ Training time:25.005 seconds
+ server global model correct 6133
+ Testing time:25.423 seconds
+ avg_test_acc: {'uniform': 0.6133000254631042, 'validclass': 0.6133000254631042, 'labeldist': 0.6132999658584595}
+ pfl_avg_test_acc: {'uniform': 0.37529999315738677, 'validclass': 0.5162047505378723, 'labeldist': 0.8121730566024781}
+Round:47 - Active clients:[40 42 32 13 39]:
+ Training time:20.953 seconds
+ server global model correct 5458
+ Testing time:25.449 seconds
+ avg_test_acc: {'uniform': 0.545799970626831, 'validclass': 0.545799970626831, 'labeldist': 0.545799970626831}
+ pfl_avg_test_acc: {'uniform': 0.41895999312400817, 'validclass': 0.5229877829551697, 'labeldist': 0.8467179775238037}
+Round:48 - Active clients:[ 8  3 45  1 47]:
+ Training time:20.664 seconds
+ server global model correct 5679
+ Testing time:25.459 seconds
+ avg_test_acc: {'uniform': 0.5679000020027161, 'validclass': 0.5679000020027161, 'labeldist': 0.5679000020027161}
+ pfl_avg_test_acc: {'uniform': 0.4111400008201599, 'validclass': 0.5041323900222778, 'labeldist': 0.831010890007019}
+Round:49 - Active clients:[25 31 39 16 14]:
+ Training time:17.163 seconds
+ server global model correct 5830
+ Testing time:25.987 seconds
+ avg_test_acc: {'uniform': 0.5830000042915344, 'validclass': 0.5830000042915344, 'labeldist': 0.5830000042915344}
+ pfl_avg_test_acc: {'uniform': 0.43632000088691714, 'validclass': 0.5999588966369629, 'labeldist': 0.8568454265594483}
+Round:50 - Active clients:[34 36  1 38  8]:
+ Training time:26.289 seconds
+ server global model correct 5165
+ Testing time:26.066 seconds
+ avg_test_acc: {'uniform': 0.5164999961853027, 'validclass': 0.5164999961853027, 'labeldist': 0.5165000557899475}
+ pfl_avg_test_acc: {'uniform': 0.29855999648571013, 'validclass': 0.5031057178974152, 'labeldist': 0.8763099670410156}
+Round:51 - Active clients:[ 4 48 47 15  0]:
+ Training time:23.073 seconds
+ server global model correct 5935
+ Testing time:25.456 seconds
+ avg_test_acc: {'uniform': 0.593500018119812, 'validclass': 0.593500018119812, 'labeldist': 0.593500018119812}
+ pfl_avg_test_acc: {'uniform': 0.4109800040721893, 'validclass': 0.5860183358192443, 'labeldist': 0.8591298699378968}
+Round:52 - Active clients:[19  3 26 40  8]:
+ Training time:20.308 seconds
+ server global model correct 6154
+ Testing time:25.709 seconds
+ avg_test_acc: {'uniform': 0.6154000163078308, 'validclass': 0.6154000163078308, 'labeldist': 0.6154000163078308}
+ pfl_avg_test_acc: {'uniform': 0.4284999966621399, 'validclass': 0.5484061121940613, 'labeldist': 0.8481235265731811}
+Round:53 - Active clients:[ 1  2 28 21  8]:
+ Training time:25.038 seconds
+ server global model correct 6165
+ Testing time:25.407 seconds
+ avg_test_acc: {'uniform': 0.6165000200271606, 'validclass': 0.6165000200271606, 'labeldist': 0.6165000200271606}
+ pfl_avg_test_acc: {'uniform': 0.37874000072479247, 'validclass': 0.5074805557727814, 'labeldist': 0.8938165426254272}
+Round:54 - Active clients:[10 49 24 39 38]:
+ Training time:22.716 seconds
+ server global model correct 5632
+ Testing time:25.625 seconds
+ avg_test_acc: {'uniform': 0.5631999969482422, 'validclass': 0.5631999969482422, 'labeldist': 0.5631999969482422}
+ pfl_avg_test_acc: {'uniform': 0.3966399967670441, 'validclass': 0.5743446052074432, 'labeldist': 0.8026220917701721}
+Round:55 - Active clients:[ 3 22 28 15  6]:
+ Training time:24.168 seconds
+ server global model correct 6295
+ Testing time:25.555 seconds
+ avg_test_acc: {'uniform': 0.6294999718666077, 'validclass': 0.6294999718666077, 'labeldist': 0.6294999718666077}
+ pfl_avg_test_acc: {'uniform': 0.4610999941825867, 'validclass': 0.5414385020732879, 'labeldist': 0.859783661365509}
+Round:56 - Active clients:[45 40 38  7 20]:
+ Training time:15.616 seconds
+ server global model correct 6663
+ Testing time:25.432 seconds
+ avg_test_acc: {'uniform': 0.6662999987602234, 'validclass': 0.6662999987602234, 'labeldist': 0.6662999987602234}
+ pfl_avg_test_acc: {'uniform': 0.4375799983739853, 'validclass': 0.5200916647911071, 'labeldist': 0.7956100702285767}
+ Best test accuracy:0.666. Best server model is updatded and saved at ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False_best_global_model.pkl!
+Round:57 - Active clients:[29 20 16  9 39]:
+ Training time:16.251 seconds
+ server global model correct 6967
+ Testing time:25.661 seconds
+ avg_test_acc: {'uniform': 0.6966999769210815, 'validclass': 0.6966999769210815, 'labeldist': 0.6967000961303711}
+ pfl_avg_test_acc: {'uniform': 0.5061199963092804, 'validclass': 0.548294460773468, 'labeldist': 0.8358468413352966}
+ Best test accuracy:0.697. Best server model is updatded and saved at ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False_best_global_model.pkl!
+Round:58 - Active clients:[48 18  5 47 16]:
+ Training time:22.899 seconds
+ server global model correct 6573
+ Testing time:25.502 seconds
+ avg_test_acc: {'uniform': 0.6572999954223633, 'validclass': 0.6572999954223633, 'labeldist': 0.6573000550270081}
+ pfl_avg_test_acc: {'uniform': 0.5028800010681153, 'validclass': 0.56017284989357, 'labeldist': 0.8082319498062134}
+Round:59 - Active clients:[32 21 48 47  1]:
+ Training time:23.957 seconds
+ server global model correct 6747
+ Testing time:25.462 seconds
+ avg_test_acc: {'uniform': 0.6747000217437744, 'validclass': 0.6747000217437744, 'labeldist': 0.6746999621391296}
+ pfl_avg_test_acc: {'uniform': 0.44568000435829164, 'validclass': 0.5067191243171691, 'labeldist': 0.8161439776420594}
+Round:60 - Active clients:[38 20  4 28 40]:
+ Training time:21.600 seconds
+ server global model correct 6954
+ Testing time:25.490 seconds
+ avg_test_acc: {'uniform': 0.6953999996185303, 'validclass': 0.6953999996185303, 'labeldist': 0.695400059223175}
+ pfl_avg_test_acc: {'uniform': 0.45406000018119813, 'validclass': 0.5566877007484436, 'labeldist': 0.8508179187774658}
+Round:61 - Active clients:[ 7 22 41 29 48]:
+ Training time:17.618 seconds
+ server global model correct 6393
+ Testing time:25.473 seconds
+ avg_test_acc: {'uniform': 0.6392999887466431, 'validclass': 0.6392999887466431, 'labeldist': 0.6392999887466431}
+ pfl_avg_test_acc: {'uniform': 0.4284399926662445, 'validclass': 0.509248799085617, 'labeldist': 0.7901468515396118}
+Round:62 - Active clients:[39 15  4 48 31]:
+ Training time:18.581 seconds
+ server global model correct 6632
+ Testing time:25.461 seconds
+ avg_test_acc: {'uniform': 0.6632000207901001, 'validclass': 0.6632000207901001, 'labeldist': 0.6632000207901001}
+ pfl_avg_test_acc: {'uniform': 0.49277999997138977, 'validclass': 0.5534111201763153, 'labeldist': 0.8568914413452149}
+Round:63 - Active clients:[ 8 36 47 16 31]:
+ Training time:21.525 seconds
+ server global model correct 6870
+ Testing time:25.698 seconds
+ avg_test_acc: {'uniform': 0.6869999766349792, 'validclass': 0.6869999766349792, 'labeldist': 0.687000036239624}
+ pfl_avg_test_acc: {'uniform': 0.49007999897003174, 'validclass': 0.5717384099960328, 'labeldist': 0.8695275902748107}
+Round:64 - Active clients:[ 9  1 33 37 13]:
+ Training time:22.709 seconds
+ server global model correct 6380
+ Testing time:25.431 seconds
+ avg_test_acc: {'uniform': 0.6380000114440918, 'validclass': 0.6380000114440918, 'labeldist': 0.6380000114440918}
+ pfl_avg_test_acc: {'uniform': 0.41584000587463377, 'validclass': 0.5982273817062378, 'labeldist': 0.8689755797386169}
+Round:65 - Active clients:[41 17 20 45 23]:
+ Training time:16.236 seconds
+ server global model correct 7207
+ Testing time:25.636 seconds
+ avg_test_acc: {'uniform': 0.7207000255584717, 'validclass': 0.7207000255584717, 'labeldist': 0.7207000255584717}
+ pfl_avg_test_acc: {'uniform': 0.42932000756263733, 'validclass': 0.49827142953872683, 'labeldist': 0.8465755820274353}
+ Best test accuracy:0.721. Best server model is updatded and saved at ./Cifar_FedNH/FedNH_Cifar10_tumorModel_cifar10_data_noniid-label-distribution_beta_0.3_num_clients_50_participate_ratio_0.1_global_seed_0_FedNH_smoothing_0.9_FedNH_client_adv_prototype_agg_False_no_norm_False_best_global_model.pkl!
+Round:66 - Active clients:[ 4 47 25  5  1]:
+ Training time:20.552 seconds
+ server global model correct 6518
+ Testing time:25.970 seconds
+ avg_test_acc: {'uniform': 0.6517999768257141, 'validclass': 0.6517999768257141, 'labeldist': 0.6517999768257141}
+ pfl_avg_test_acc: {'uniform': 0.4470600068569183, 'validclass': 0.6251992821693421, 'labeldist': 0.8542751431465149}
+Round:67 - Active clients:[ 6  1 20 15 11]:
+ Training time:24.561 seconds
+ server global model correct 6760
+ Testing time:25.733 seconds
+ avg_test_acc: {'uniform': 0.6759999990463257, 'validclass': 0.6759999990463257, 'labeldist': 0.6759999990463257}
+ pfl_avg_test_acc: {'uniform': 0.470580005645752, 'validclass': 0.5722428560256958, 'labeldist': 0.8756940603256226}
+Round:68 - Active clients:[18 41 30  3 37]:
+ Training time:21.923 seconds
+ server global model correct 6857
+ Testing time:25.438 seconds
+ avg_test_acc: {'uniform': 0.685699999332428, 'validclass': 0.685699999332428, 'labeldist': 0.685699999332428}
+ pfl_avg_test_acc: {'uniform': 0.45598000288009644, 'validclass': 0.6518785774707794, 'labeldist': 0.8629323482513428}
+Round:69 - Active clients:[ 4 34 10 19  8]:
+ Training time:26.868 seconds
+ server global model correct 6385
+ Testing time:25.455 seconds
+ avg_test_acc: {'uniform': 0.6384999752044678, 'validclass': 0.6384999752044678, 'labeldist': 0.638499915599823}
+ pfl_avg_test_acc: {'uniform': 0.3970200061798096, 'validclass': 0.6399333238601684, 'labeldist': 0.8577733993530273}
+Round:70 - Active clients:[19 47 40 30 38]:
+ Training time:21.485 seconds
+ server global model correct 7104
+ Testing time:25.436 seconds
+ avg_test_acc: {'uniform': 0.7103999853134155, 'validclass': 0.7103999853134155, 'labeldist': 0.7104001045227051}
+ pfl_avg_test_acc: {'uniform': 0.460999995470047, 'validclass': 0.5336100041866303, 'labeldist': 0.8297482490539551}
+Round:71 - Active clients:[32 39  4 35 20]:
+ Training time:22.254 seconds
+ server global model correct 6879
+ Testing time:25.450 seconds
+ avg_test_acc: {'uniform': 0.6879000067710876, 'validclass': 0.6879000067710876, 'labeldist': 0.6878999471664429}
+ pfl_avg_test_acc: {'uniform': 0.4869000017642975, 'validclass': 0.5842071413993836, 'labeldist': 0.8435052156448364}
+Round:72 - Active clients:[48 22  4 11 49]:
+ Training time:21.408 seconds
+ server global model correct 5992
+ Testing time:25.755 seconds
+ avg_test_acc: {'uniform': 0.5992000102996826, 'validclass': 0.5992000102996826, 'labeldist': 0.5992000102996826}
+ pfl_avg_test_acc: {'uniform': 0.4409400045871735, 'validclass': 0.5573738098144532, 'labeldist': 0.8315651178359985}
+Round:73 - Active clients:[28 20 49 34 32]:
+ Training time:29.094 seconds
+ server global model correct 5274
+ Testing time:25.430 seconds
+ avg_test_acc: {'uniform': 0.527400016784668, 'validclass': 0.527400016784668, 'labeldist': 0.5273999571800232}
+ pfl_avg_test_acc: {'uniform': 0.41524000763893126, 'validclass': 0.5600670576095581, 'labeldist': 0.8818885326385498}
+Round:74 - Active clients:[22 16 26  8 32]:
+ Training time:20.564 seconds
+ server global model correct 6637
+ Testing time:25.482 seconds
+ avg_test_acc: {'uniform': 0.6636999845504761, 'validclass': 0.6636999845504761, 'labeldist': 0.6636999845504761}
+ pfl_avg_test_acc: {'uniform': 0.44692000150680544, 'validclass': 0.5486266732215881, 'labeldist': 0.8608013153076172}
+Round:75 - Active clients:[ 4  2 15 22  5]:
+ Training time:20.019 seconds
+ server global model correct 6772
+ Testing time:28.342 seconds
+ avg_test_acc: {'uniform': 0.6772000193595886, 'validclass': 0.6772000193595886, 'labeldist': 0.6772000193595886}
+ pfl_avg_test_acc: {'uniform': 0.48720000982284545, 'validclass': 0.5507938802242279, 'labeldist': 0.877208125591278}
+Round:76 - Active clients:[41 45 49  9 47]:
+ Training time:21.736 seconds
+ server global model correct 6217
+ Testing time:25.423 seconds
+ avg_test_acc: {'uniform': 0.6216999888420105, 'validclass': 0.6216999888420105, 'labeldist': 0.6216999888420105}
+ pfl_avg_test_acc: {'uniform': 0.43133999705314635, 'validclass': 0.5054385662078857, 'labeldist': 0.8602871298789978}
+Round:77 - Active clients:[16 40 13 45 38]:
+ Training time:19.474 seconds
+ server global model correct 6951
+ Testing time:25.423 seconds
+ avg_test_acc: {'uniform': 0.6951000094413757, 'validclass': 0.6951000094413757, 'labeldist': 0.6951000094413757}
+ pfl_avg_test_acc: {'uniform': 0.4675200045108795, 'validclass': 0.5340849995613098, 'labeldist': 0.8419806241989136}
+Round:78 - Active clients:[19 33 37 26 10]:
+ Training time:24.645 seconds
+ server global model correct 5755
+ Testing time:25.437 seconds
+ avg_test_acc: {'uniform': 0.5755000114440918, 'validclass': 0.5755000114440918, 'labeldist': 0.5755000710487366}
+ pfl_avg_test_acc: {'uniform': 0.4036400020122528, 'validclass': 0.6973023891448975, 'labeldist': 0.8538238763809204}
+Round:79 - Active clients:[39 44 21 42 48]:
+ Training time:20.138 seconds
+ server global model correct 6907
+ Testing time:25.759 seconds
+ avg_test_acc: {'uniform': 0.6906999945640564, 'validclass': 0.6906999945640564, 'labeldist': 0.6906999945640564}
+ pfl_avg_test_acc: {'uniform': 0.44768000245094297, 'validclass': 0.5750405550003052, 'labeldist': 0.8628515124320983}
+Round:80 - Active clients:[44 36 33 29 26]:

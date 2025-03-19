@@ -1,0 +1,1 @@
+{"pfl_test_acc_labeldist":0.8712559998035431,"pfl_test_acc_uniform":0.5040300041437149,"gfl_test_acc_uniform":0.7651000022888184,"avg_train_loss":0.1978026260983829,"_runtime":13858.531810402,"_timestamp":1.741585805221858e+09,"_wandb":{"runtime":13860},"avg_train_acc":0.939741489168032,"_step":199,"pfl_test_acc_validclass":0.6962196469306946}

@@ -1,0 +1,11 @@
+results are saved in:  ./ICH_FedAvg/FedAvg_Cifar10_Conv2Cifar_noniid-label-distribution_beta_0.3_num_clients_100_participate_ratio_0.1_global_seed_0_no_norm_False
+Traceback (most recent call last):
+  File "/media/data3/home/dungkt/FedNH/main.py", line 251, in <module>
+    run(args)
+  File "/media/data3/home/dungkt/FedNH/main.py", line 147, in run
+    clients_dict = setup_clients(ClientCstr, trainset, None, criterion,
+  File "/media/data3/home/dungkt/FedNH/src/flbase/utils.py", line 64, in setup_clients
+    trainset_per_client_dict, stats_dict = sampler(trainset, num_clients, partition, ylabels=trainset.targets,
+  File "/media/data3/home/dungkt/FedNH/src/utils.py", line 258, in sampler
+    assert num_classes == num_unique_class, f"num_classes is set to {num_classes}, but number of unique class detected in ylables are {num_unique_class}."
+AssertionError: num_classes is set to 5, but number of unique class detected in ylables are 10.

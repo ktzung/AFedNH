@@ -1,0 +1,15 @@
+{"time":"2025-03-11T21:42:25.234391692+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/media/data3/home/dungkt/FedNH/wandb/run-20250311_214225-1tbgoj0i/logs/debug-core.log"}
+{"time":"2025-03-11T21:42:25.34390262+07:00","level":"INFO","msg":"created new stream","id":"1tbgoj0i"}
+{"time":"2025-03-11T21:42:25.343975852+07:00","level":"INFO","msg":"stream: started","id":"1tbgoj0i"}
+{"time":"2025-03-11T21:42:25.344108541+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"1tbgoj0i"}
+{"time":"2025-03-11T21:42:25.344158455+07:00","level":"INFO","msg":"handler: started","stream_id":"1tbgoj0i"}
+{"time":"2025-03-11T21:42:25.344173948+07:00","level":"INFO","msg":"sender: started","stream_id":"1tbgoj0i"}
+{"time":"2025-03-11T21:42:25.795509195+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-11T21:42:26.270807925+07:00","level":"INFO","msg":"stream: closing","id":"1tbgoj0i"}
+{"time":"2025-03-11T21:42:26.270859779+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-11T21:42:26.271914231+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-11T21:42:27.379405765+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-11T21:42:27.71613487+07:00","level":"INFO","msg":"handler: closed","stream_id":"1tbgoj0i"}
+{"time":"2025-03-11T21:42:27.716189742+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"1tbgoj0i"}
+{"time":"2025-03-11T21:42:27.716211192+07:00","level":"INFO","msg":"sender: closed","stream_id":"1tbgoj0i"}
+{"time":"2025-03-11T21:42:27.716321226+07:00","level":"INFO","msg":"stream: closed","id":"1tbgoj0i"}
