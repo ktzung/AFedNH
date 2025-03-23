@@ -1004,7 +1004,7 @@ def get_datasets(datasetname, **kwargs):
 
     elif datasetname == "ICH":
         print("ICH dataset dang su dung")
-        image_size = (224,224)
+        image_size = (128, 128)
         root = "data/"
         # args.n_classes = 5
         # data augmentation
